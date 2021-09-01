@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Dine_Webpage/static/css/main.79c32fe3.chunk.css",
+    "main.js": "/Dine_Webpage/static/js/main.13243d87.chunk.js",
+    "main.js.map": "/Dine_Webpage/static/js/main.13243d87.chunk.js.map",
+    "runtime-main.js": "/Dine_Webpage/static/js/runtime-main.aba906cf.js",
+    "runtime-main.js.map": "/Dine_Webpage/static/js/runtime-main.aba906cf.js.map",
+    "static/js/2.4eee397a.chunk.js": "/Dine_Webpage/static/js/2.4eee397a.chunk.js",
+    "static/js/2.4eee397a.chunk.js.map": "/Dine_Webpage/static/js/2.4eee397a.chunk.js.map",
+    "index.html": "/Dine_Webpage/index.html",
+    "static/css/main.79c32fe3.chunk.css.map": "/Dine_Webpage/static/css/main.79c32fe3.chunk.css.map",
+    "static/js/2.4eee397a.chunk.js.LICENSE.txt": "/Dine_Webpage/static/js/2.4eee397a.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/Dine_Webpage/static/media/hero-bg-tablet@2x.a41d079d.jpg",
+    "static/media/logo.f6ae2c4c.svg": "/Dine_Webpage/static/media/logo.f6ae2c4c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aba906cf.js",
+    "static/js/2.4eee397a.chunk.js",
+    "static/css/main.79c32fe3.chunk.css",
+    "static/js/main.13243d87.chunk.js"
+  ]
+}
