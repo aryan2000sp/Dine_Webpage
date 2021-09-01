@@ -1,8 +1,10 @@
 // Add Breakpoints here
-// 768px, 1440px,
+// 450px, 768px, 1024px, 1440px,
 $breakpoints-up: (
+  "small": "28.125em",
   "medium": "48em",
-  "large": "90em",
+  "large": "64em",
+  "x-large": "90em",
 );
 
 // // 330px, 900px, 1300px

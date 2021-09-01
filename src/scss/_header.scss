@@ -1,3 +1,149 @@
 .header-section {
-  background-color: red;
+  background-image: url(../images/homepage/hero-bg-mobile@2x.jpg);
+  background-size: cover;
+  height: 46.75rem;
+  padding-top: 14.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 9.5rem;
+  // padding: 14.5rem 1.5rem 9.5rem 1.5rem;
+
+  &-article {
+    .info {
+      max-width: 20.4375rem;
+      margin-top: 2rem;
+      > h1 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 1.5rem;
+        letter-spacing: -0.4px;
+      }
+      .paragraph {
+        > p {
+          color: #fff;
+          text-align: center;
+          line-height: 1.5625rem;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+
+// Media Queries
+
+// For width 450px and above
+@include breakpoint-up(small) {
+  .header-section {
+    padding-top: 22rem;
+    height: 54rem;
+    &-article {
+      .info {
+        max-width: 80%;
+        > h1 {
+          font-size: 2.5rem;
+          line-height: 3rem;
+          letter-spacing: -0.5px;
+        }
+      }
+    }
+  }
+}
+
+// For width 768px and above
+@include breakpoint-up(medium) {
+  .header-section {
+    height: 62rem;
+    background-image: url(../images/homepage/hero-bg-tablet@2x.jpg);
+    padding-top: 23.375rem;
+    padding-bottom: 13.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+
+    &-article {
+      .info {
+        max-width: 100%;
+        > h1 {
+          font-size: 3rem;
+          line-height: 4rem;
+          letter-spacing: -0.6px;
+        }
+        .paragraph {
+          margin-left: 3.625rem;
+          margin-right: 3.625rem;
+          > p {
+            font-family: "Spartan", sans-serif;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.875rem;
+            letter-spacing: -0.22px;
+            text-align: center;
+            margin-bottom: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// For width 1024px and above
+@include breakpoint-up(large) {
+  .header-section {
+    height: 51.25rem;
+    padding-right: 27rem;
+    padding-left: 10.3125rem;
+    padding-top: 4rem;
+    background-image: url(../images/homepage/hero-bg-desktop@2x.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    &-article {
+      align-items: flex-start;
+      .info {
+        align-items: flex-start;
+        margin-top: 3.75rem;
+        > h1 {
+          text-align: left;
+        }
+        .paragraph {
+          margin-left: 0rem;
+          margin-right: 2.5rem;
+          > p {
+            text-align: left;
+            padding-right: 4.875rem;
+            padding-left: 0rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// For width 1440px and above
+@include breakpoint-up(x-large) {
+  .header-section {
+    background-size: cover;
+    &-article {
+      align-items: flex-start;
+      .info {
+        max-width: 32.6875rem;
+        align-items: flex-start;
+        margin-top: 9.5625rem;
+        > h1 {
+          font-size: 4rem;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 4.5rem;
+          letter-spacing: -0.8px;
+          text-align: left;
+        }
+
+        .paragraph {
+          margin-right: 4.875rem;
+        }
+      }
+    }
+  }
 }
