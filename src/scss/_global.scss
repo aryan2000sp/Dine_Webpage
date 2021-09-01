@@ -1,0 +1,113 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Variables
+
+// Primary colors
+$beaver-color: #9e7f66;
+$cod-gray-color: #111111;
+
+// Secondary Colors
+$mirage-color: #17192b;
+$ebony-clay-color: #242b37;
+$shuttle-gray: #5c6779;
+
+// Typography
+h1 {
+  font-family: "Spartan", sans-serif;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 4.5rem;
+  letter-spacing: -0.8px;
+}
+
+h2 {
+  font-family: "Spartan", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.5rem;
+  letter-spacing: -0.5px;
+}
+
+// Applied to h3 only
+.light-heading {
+  font-family: "Spartan", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem;
+  letter-spacing: 0.125rem;
+}
+
+// Applied to h3 only
+.bold-heading {
+  font-family: "Spartan", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+  letter-spacing: -0.22px;
+}
+.desktop-paragraph {
+  font-family: Spartan;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: -0.22px;
+}
+
+.mobile-paragraph {
+  font-family: Spartan;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: -0.1875px;
+}
+
+// Golbal stylings
+// Styling for the buttons
+.btn-font {
+  @extend .light-heading;
+  line-height: 1rem;
+}
+
+.btn-inactive {
+  @extend .btn-font;
+  opacity: 0.25;
+}
+
+.btn-dark {
+  padding: 1.5rem 3rem;
+  background-color: $cod-gray-color;
+  border: 1px solid #fff;
+  @extend .btn-font;
+  color: #fff;
+
+  &:hover {
+    background-color: #fff;
+    color: $cod-gray-color;
+  }
+}
+
+.btn-light {
+  padding: 1.5rem 3rem;
+  background-color: #fff;
+
+  @extend .light-heading;
+  color: $cod-gray-color;
+  border: 1px solid $cod-gray-color;
+
+  &:hover {
+    background-color: $cod-gray-color;
+    color: #fff;
+  }
+}
