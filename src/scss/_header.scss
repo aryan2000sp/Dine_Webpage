@@ -6,7 +6,6 @@
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-bottom: 9.5rem;
-  // padding: 14.5rem 1.5rem 9.5rem 1.5rem;
 
   &-article {
     .info {
@@ -64,7 +63,7 @@
 
     &-article {
       .info {
-        max-width: 100%;
+        max-width: 70%;
         > h1 {
           font-size: 3rem;
           line-height: 4rem;
@@ -92,12 +91,13 @@
 // For width 1024px and above
 @include breakpoint-up(large) {
   .header-section {
-    height: 51.25rem;
-    padding-right: 27rem;
-    padding-left: 10.3125rem;
-    padding-top: 4rem;
+    height: auto;
+    padding-right: 14rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
     background-image: url(../images/homepage/hero-bg-desktop@2x.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     &-article {
       align-items: flex-start;
@@ -121,11 +121,16 @@
   }
 }
 
-// For width 1440px and above
+// For width 1300px and above
 @include breakpoint-up(x-large) {
   .header-section {
+    padding-right: 27rem;
+    padding-left: 10.3125rem;
+    padding-top: 4rem;
+    padding-bottom: 13.5rem;
     background-size: cover;
     &-article {
+      max-width: 100%;
       align-items: flex-start;
       .info {
         max-width: 32.6875rem;
