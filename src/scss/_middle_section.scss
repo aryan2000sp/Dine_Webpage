@@ -1,0 +1,184 @@
+.middle-section {
+  background-color: $cod-gray-color;
+
+  &-menu {
+    padding: 4.5rem 1.5rem;
+
+    .title-section {
+      margin-bottom: 4rem;
+      .title-menu {
+        .divide-design {
+          margin-bottom: 2rem;
+        }
+        > h2 {
+          text-align: center;
+          color: #fff;
+          font-size: 2rem;
+          line-height: 2.5rem;
+          letter-spacing: -0.4px;
+          margin-bottom: 1rem;
+        }
+        > p {
+          text-align: center;
+          color: #fff;
+          line-height: 1.5625rem;
+        }
+      }
+    }
+
+    .menu-items {
+      .under-line {
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        opacity: 0.15;
+        margin-bottom: 1.5rem;
+      }
+      .menu-item {
+        .info > h2 {
+          color: #fff;
+          text-align: center;
+          font-size: 1.125rem;
+          line-height: 1.75rem;
+          letter-spacing: -0.22px;
+          margin-top: 2rem;
+          margin-bottom: 0.25rem;
+        }
+        .info > p {
+          color: #fff;
+          text-align: center;
+          margin-bottom: 1.5rem;
+        }
+        .img {
+          > img {
+            width: 100%;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Media Queries
+
+// For width 450px and above
+@include breakpoint-up(small) {
+  .middle-section {
+    &-menu {
+      .menu-items {
+        .menu-item {
+          &:not(:last-child) {
+            margin-bottom: 3rem;
+          }
+          .info > h2 {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// For width 768px and above
+@include breakpoint-up(medium) {
+  .middle-section {
+    &-menu {
+      padding: 6rem 6.125rem;
+
+      .title-section {
+        max-width: 27.8125rem;
+        margin-bottom: 3.5rem;
+        .title-menu {
+          > h2 {
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+            letter-spacing: -0.5px;
+          }
+
+          > p {
+            font-size: 1.125rem;
+            line-height: 1.875rem;
+            letter-spacing: -0.22px;
+          }
+        }
+      }
+
+      .menu-items {
+        .menu-item {
+          max-width: 33.75rem;
+          &:not(:last-child) {
+            margin-bottom: 0rem;
+          }
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          .img {
+            margin-right: 3.875rem;
+            position: relative;
+            &::after {
+              content: "";
+              width: 2rem;
+              height: 1px;
+              background-color: $beaver-color;
+              position: absolute;
+              top: 1.125rem;
+              right: -2rem;
+            }
+          }
+
+          .image-1 > img {
+            width: 8rem;
+            content: url(../images/homepage/salmon-desktop-tablet@2x.jpg);
+          }
+          .image-2 > img {
+            width: 8rem;
+            content: url(../images/homepage/beef-desktop-tablet@2x.jpg);
+          }
+          .image-3 > img {
+            width: 8rem;
+            content: url(../images/homepage/chocolate-desktop-tablet@2x.jpg);
+          }
+
+          .info > h2 {
+            font-size: 1.125rem;
+            text-align: left;
+          }
+
+          .info > p {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}
+
+// For width 1440px and above
+@include breakpoint-up(x-large) {
+  .middle-section {
+    &-menu {
+      padding: 12.5rem 10.3125rem 7.5rem 10.3125rem;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      .title-section {
+        margin-right: 3rem;
+        .title-menu {
+          align-items: flex-start;
+          .divide-design {
+            margin-bottom: 3rem;
+          }
+          > h2 {
+            text-align: left;
+          }
+          > p {
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+}

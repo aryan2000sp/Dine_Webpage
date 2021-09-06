@@ -1,6 +1,3 @@
-// TODO:-
-// Animations
-
 import img1 from "../../images/homepage/enjoyable-place-mobile@2x.jpg";
 import img2 from "../../images/homepage/locally-sourced-mobile@2x.jpg";
 import { ReactComponent as Curve1 } from "../../images/patterns/pattern-curve-top-right.svg";
