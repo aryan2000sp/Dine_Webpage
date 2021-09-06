@@ -1,6 +1,9 @@
 .upper-section {
   position: relative;
 
+  &-info {
+    overflow: hidden;
+  }
   &-col {
     position: relative;
     top: -4.5rem;
@@ -8,10 +11,13 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin-bottom: 5rem;
-    > img {
-      display: block;
-      width: 100%;
-      box-shadow: 0px 72px 50px -10px #bbb;
+    .img {
+      overflow: hidden;
+      > img {
+        display: block;
+        width: 100%;
+        box-shadow: 0px 72px 50px -10px #bbb;
+      }
     }
 
     .info {
@@ -61,15 +67,21 @@
       margin-bottom: 7.5rem;
       padding-right: 6.125rem;
       padding-left: 6.125rem;
-      > img {
-        box-shadow: 0px 96px 50px -10px #bbb;
+      .img {
+        > img {
+          box-shadow: 0px 96px 50px -10px #bbb;
+        }
       }
       .image1 {
-        content: url(../images/homepage/enjoyable-place-tablet@2x.jpg);
+        > img {
+          content: url(../images/homepage/enjoyable-place-tablet@2x.jpg);
+        }
       }
 
       .image2 {
-        content: url(../images/homepage/locally-sourced-tablet@2x.jpg);
+        > img {
+          content: url(../images/homepage/locally-sourced-tablet@2x.jpg);
+        }
       }
 
       .info {
@@ -120,16 +132,23 @@
       justify-content: space-between;
       padding-left: 5rem;
       padding-right: 5rem;
-      > img {
-        width: 23rem;
-        height: 31rem;
+      .img {
+        > img {
+          width: 23rem;
+          height: 31rem;
+        }
       }
 
       .image1 {
-        content: url(../images/homepage/enjoyable-place-desktop@2x.jpg);
+        > img {
+          content: url(../images/homepage/enjoyable-place-desktop@2x.jpg);
+        }
       }
       .image2 {
-        content: url(../images/homepage/locally-sourced-desktop@2x.jpg);
+        > img {
+          box-shadow: none;
+          content: url(../images/homepage/locally-sourced-desktop@2x.jpg);
+        }
       }
 
       .design-curve-2 {
@@ -156,10 +175,6 @@
     &-col-2 {
       top: 2.5rem;
       flex-direction: row-reverse;
-      > img {
-        box-shadow: none;
-      }
-
       .info-2 {
         margin-right: 5rem;
       }
@@ -177,15 +192,21 @@
       justify-content: space-between;
       padding-left: 10.3125rem;
       padding-right: 10.3125rem;
-      > img {
-        width: 33.75rem;
-        height: 45rem;
+      .img {
+        > img {
+          width: 33.75rem;
+          height: 45rem;
+        }
       }
       .image1 {
-        content: url(../images/homepage/enjoyable-place-desktop@2x.jpg);
+        > img {
+          content: url(../images/homepage/enjoyable-place-desktop@2x.jpg);
+        }
       }
       .image2 {
-        content: url(../images/homepage/locally-sourced-desktop@2x.jpg);
+        > img {
+          content: url(../images/homepage/locally-sourced-desktop@2x.jpg);
+        }
       }
 
       .design-curve-1 {
