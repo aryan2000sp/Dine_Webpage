@@ -1,30 +1,39 @@
 {
   "files": {
-    "main.css": "/Dine_Webpage/static/css/main.2e5c59bd.chunk.css",
-    "main.js": "/Dine_Webpage/static/js/main.3bb58b3b.chunk.js",
-    "main.js.map": "/Dine_Webpage/static/js/main.3bb58b3b.chunk.js.map",
+    "main.css": "/Dine_Webpage/static/css/main.b4c75e8e.chunk.css",
+    "main.js": "/Dine_Webpage/static/js/main.46b2e813.chunk.js",
+    "main.js.map": "/Dine_Webpage/static/js/main.46b2e813.chunk.js.map",
     "runtime-main.js": "/Dine_Webpage/static/js/runtime-main.aba906cf.js",
     "runtime-main.js.map": "/Dine_Webpage/static/js/runtime-main.aba906cf.js.map",
-    "static/js/2.fc7e4706.chunk.js": "/Dine_Webpage/static/js/2.fc7e4706.chunk.js",
-    "static/js/2.fc7e4706.chunk.js.map": "/Dine_Webpage/static/js/2.fc7e4706.chunk.js.map",
+    "static/js/2.75387f1c.chunk.js": "/Dine_Webpage/static/js/2.75387f1c.chunk.js",
+    "static/js/2.75387f1c.chunk.js.map": "/Dine_Webpage/static/js/2.75387f1c.chunk.js.map",
     "index.html": "/Dine_Webpage/index.html",
-    "static/css/main.2e5c59bd.chunk.css.map": "/Dine_Webpage/static/css/main.2e5c59bd.chunk.css.map",
-    "static/js/2.fc7e4706.chunk.js.LICENSE.txt": "/Dine_Webpage/static/js/2.fc7e4706.chunk.js.LICENSE.txt",
+    "static/css/main.b4c75e8e.chunk.css.map": "/Dine_Webpage/static/css/main.b4c75e8e.chunk.css.map",
+    "static/js/2.75387f1c.chunk.js.LICENSE.txt": "/Dine_Webpage/static/js/2.75387f1c.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/Dine_Webpage/static/media/salmon-desktop-tablet@2x.b69fa4a7.jpg",
     "static/media/beef-mobile@2x.d5427957.jpg": "/Dine_Webpage/static/media/beef-mobile@2x.d5427957.jpg",
     "static/media/chocolate-mobile@2x.4a6ee648.jpg": "/Dine_Webpage/static/media/chocolate-mobile@2x.4a6ee648.jpg",
     "static/media/enjoyable-place-mobile@2x.bd35fc60.jpg": "/Dine_Webpage/static/media/enjoyable-place-mobile@2x.bd35fc60.jpg",
+    "static/media/family-gathering-desktop@2x.jpg": "/Dine_Webpage/static/media/family-gathering-desktop@2x.7a423eff.jpg",
+    "static/media/family-gathering-mobile@2x.jpg": "/Dine_Webpage/static/media/family-gathering-mobile@2x.2fc17bad.jpg",
+    "static/media/family-gathering-tablet@2x.jpg": "/Dine_Webpage/static/media/family-gathering-tablet@2x.b6beb22d.jpg",
     "static/media/locally-sourced-mobile@2x.307fc09f.jpg": "/Dine_Webpage/static/media/locally-sourced-mobile@2x.307fc09f.jpg",
     "static/media/logo.f6ae2c4c.svg": "/Dine_Webpage/static/media/logo.f6ae2c4c.svg",
     "static/media/pattern-curve-top-left.77f903fb.svg": "/Dine_Webpage/static/media/pattern-curve-top-left.77f903fb.svg",
     "static/media/pattern-curve-top-right.df37c69d.svg": "/Dine_Webpage/static/media/pattern-curve-top-right.df37c69d.svg",
     "static/media/pattern-divide.bf6d0c5c.svg": "/Dine_Webpage/static/media/pattern-divide.bf6d0c5c.svg",
-    "static/media/salmon-mobile@2x.d8172130.jpg": "/Dine_Webpage/static/media/salmon-mobile@2x.d8172130.jpg"
+    "static/media/salmon-mobile@2x.d8172130.jpg": "/Dine_Webpage/static/media/salmon-mobile@2x.d8172130.jpg",
+    "static/media/social-events-desktop@2x.jpg": "/Dine_Webpage/static/media/social-events-desktop@2x.5b215fd3.jpg",
+    "static/media/social-events-mobile@2x.jpg": "/Dine_Webpage/static/media/social-events-mobile@2x.76b0735c.jpg",
+    "static/media/social-events-tablet@2x.jpg": "/Dine_Webpage/static/media/social-events-tablet@2x.d4aa5403.jpg",
+    "static/media/special-events-desktop@2x.jpg": "/Dine_Webpage/static/media/special-events-desktop@2x.80e8e095.jpg",
+    "static/media/special-events-mobile@2x.jpg": "/Dine_Webpage/static/media/special-events-mobile@2x.c756d89c.jpg",
+    "static/media/special-events-tablet@2x.jpg": "/Dine_Webpage/static/media/special-events-tablet@2x.2185a41f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.aba906cf.js",
-    "static/js/2.fc7e4706.chunk.js",
-    "static/css/main.2e5c59bd.chunk.css",
-    "static/js/main.3bb58b3b.chunk.js"
+    "static/js/2.75387f1c.chunk.js",
+    "static/css/main.b4c75e8e.chunk.css",
+    "static/js/main.46b2e813.chunk.js"
   ]
 }
