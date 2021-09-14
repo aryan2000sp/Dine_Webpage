@@ -20,8 +20,6 @@ const UpperSection = () => {
     triggerOnce: true,
   });
 
-  console.log(inView1);
-  console.log(inView2);
   return (
     <section className="upper-section">
       {/* ---------------------------------------------- */}
